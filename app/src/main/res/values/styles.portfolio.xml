@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PortfolioActivityMainLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@color/portfolio_app_activity_bg</item>
+    </style>
+
+    <style name="PortfolioTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="PortfolioAppButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">70dp</item>
+        <item name="android:layout_marginRight">70dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@color/portfolio_app_button_bg</item>
+        <item name="android:textColor">@color/portfolio_app_button_fg</item>
+    </style>
+
+    <style name="PortfolioHighlightAppButton" parent="@style/PortfolioAppButton">
+        <item name="android:background">@color/portfolio_highlight_app_button_bg</item>
+        <item name="android:textColor">@color/portfolio_highlight_app_button_fg</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

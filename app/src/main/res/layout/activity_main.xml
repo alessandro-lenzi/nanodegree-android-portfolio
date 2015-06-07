@@ -1,0 +1,57 @@
+<LinearLayout
+    style="@style/PortfolioActivityMainLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/PortfolioTitle"
+        android:text="@string/main_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:requiresFadingEdge="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAppSpotity"
+                style="@style/PortfolioAppButton"
+                android:text="@string/btn_label_app_spotify"/>
+
+            <Button
+                android:id="@+id/btnAppSuperDuoScores"
+                style="@style/PortfolioAppButton"
+                android:text="@string/btn_label_app_superduo_scores"/>
+
+            <Button
+                android:id="@+id/btnAppSuperDuoLibApp"
+                style="@style/PortfolioAppButton"
+                android:text="@string/btn_label_app_superduo_libapps"/>
+
+            <Button
+                android:id="@+id/btnAppBuildItBigger"
+                style="@style/PortfolioAppButton"
+                android:text="@string/btn_label_app_builditbigger"/>
+
+            <Button
+                android:id="@+id/btnAppXyzReader"
+                style="@style/PortfolioAppButton"
+                android:text="@string/btn_label_app_xyzreader"/>
+
+            <Button
+                android:id="@+id/btnAppCapstone"
+                style="@style/PortfolioHighlightAppButton"
+                android:text="@string/btn_label_app_capstone"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

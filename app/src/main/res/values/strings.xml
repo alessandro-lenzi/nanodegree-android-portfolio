@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Nanodegree Portfolio</string>
+
+    <string name="main_title">My Nanodegree Apps!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_label_app_spotify">Spotify Streamer</string>
+    <string name="btn_label_app_superduo_scores">Super Duo: Footbal Scores</string>
+    <string name="btn_label_app_superduo_libapps">Super Duo: Library App</string>
+    <string name="btn_label_app_builditbigger">Build It Bigger</string>
+    <string name="btn_label_app_xyzreader">XYZ Reader</string>
+    <string name="btn_label_app_capstone">Capstone: My Own App</string>
+    <string name="msg_launch_app_spotify">This button will launch my Spotify app!</string>
+    <string name="msg_launch_app_superduo_scores">This button will launch my SuperDuo: Scores app!</string>
+    <string name="msg_launch_app_superduo_libapp">This button will launch my SuperDuo: Library app!</string>
+    <string name="msg_launch_app_builditbigger">This button will launch my Build It Bigger app!</string>
+    <string name="msg_launch_app_xyzreader">This button will launch my XYZ Reader app!</string>
+    <string name="msg_launch_app_capstone">This button will launch my Capstone app!</string>
+</resources>
