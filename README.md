@@ -1,5 +1,5 @@
 # Android Developer Nanodegree Portfolio
-Portfolio application for a set of applications that will be development through the Android Developer Nanodegree course.
+Portfolio application for a set of applications that will be developed through the Android Developer Nanodegree course.
 
 Credits
 -------
